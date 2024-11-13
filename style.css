@@ -71,3 +71,34 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
 }
+
+
+/* Media Query para dispositivos com largura máxima de 768px (tablets e celulares) */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Media Query para dispositivos com largura máxima de 480px (celulares) */
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
